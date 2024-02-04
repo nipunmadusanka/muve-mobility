@@ -2,7 +2,7 @@ import React from "react";
 
 function OurService() {
   return (
-    <div className="h-auto md:h-screen flex justify-center w-full p-5">
+    <div className="h-auto md:h-screen flex justify-center w-full p-5" id="services">
       <div className="flex container justify-center items-center">
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-3 mx-auto">
           <div className="container p-5 flex justify-center">

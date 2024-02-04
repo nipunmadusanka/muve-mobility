@@ -108,7 +108,7 @@ function BottomFooter() {
                     </a>
                   </li>
                   <li>
-                    <Link to={"career"} className="hover:underline"> Career</Link>
+                    <Link to={"career"} className="hover:underline" onClick={() => window.scrollTo(0, 0)}>Career</Link>
                     {/* <a href="#" className="hover:underline">
                       Terms &amp; Conditions
                     </a> */}
