@@ -14,7 +14,7 @@ function TopNavbar() {
  
   return (
     <div className='text-white bg-[#020436] flex justify-between items-center h-24 mx-auto md:px-12 px-8'>
-    <h1 style={{ fontFamily: 'Novecento-Bold, sans-serif' }} className='w-full text-xl sm:text-3xl sm:tracking-[5px] text-[#ffffff]'>muve mobility</h1>
+    <h1 style={{ fontFamily: 'Novecento-Bold, sans-serif' }} className='w-full text-xl sm:text-3xl sm:tracking-[2px] text-[#ffffff]'>MUVÉ Mobility</h1>
     <ul className='hidden md:flex '>
     <li className='p-4 text-white text-lg hover:text-[#FF6B00] transition duration-500 ease-out hover:ease-in cursor-pointer'><Link to={"/"} onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
       <li className='p-4 hover:text-[#FF6B00] transition duration-500 ease-out hover:ease-in cursor-pointer'><HashLink smooth to="#services">Services</HashLink></li>

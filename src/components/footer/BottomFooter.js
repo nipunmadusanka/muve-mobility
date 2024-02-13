@@ -42,13 +42,13 @@ function BottomFooter() {
                   alt="FlowBite Logo"
                 /> */}
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                    Muve Mobility
+                    MUVÉ Mobility
                   </span>
                 </a>
               </div>
               <div className="flex justify-center md:justify-start text-center md:text-start">
                 <p className="text-gray-400">
-                  Muve Mobility is a renowned web design and development company
+                  MUVÉ Mobility is a renowned web design and development company
                   that specializes in creating user-friendly and powerful
                   experiences for mobile and web platforms. Our design
                   philosophy is based on a human-centric approach, which allows
@@ -67,11 +67,11 @@ function BottomFooter() {
                 </h2>
                 <ul className="text-gray-400 dark:text-gray-400 font-medium">
                   {services.map((title, i) => (
-                      <li key={i} className="mb-2">
-                        <a href="#" className="hover:underline">
-                          {title.service}
-                        </a>
-                      </li>
+                    <li key={i} className="mb-2">
+                      <a href="#" className="hover:underline">
+                        {title.service}
+                      </a>
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -108,7 +108,13 @@ function BottomFooter() {
                     </a>
                   </li>
                   <li>
-                    <Link to={"career"} className="hover:underline" onClick={() => window.scrollTo(0, 0)}>Career</Link>
+                    <Link
+                      to={"career"}
+                      className="hover:underline"
+                      onClick={() => window.scrollTo(0, 0)}
+                    >
+                      Career
+                    </Link>
                     {/* <a href="#" className="hover:underline">
                       Terms &amp; Conditions
                     </a> */}
@@ -123,7 +129,7 @@ function BottomFooter() {
           <span className="text-sm text-white sm:text-center dark:text-gray-400">
             © {new Date().getFullYear()}{" "}
             <a href="#" className="hover:underline">
-              Muve Mobilty™
+              MUVÉ Mobilty™
             </a>
             . All Rights Reserved.
           </span>

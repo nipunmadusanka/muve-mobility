@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Careers from "./pages/career/Careers";
 import Portfolio from "./pages/portfolio/Portfolio";
+import Service from "./pages/service/Service";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="about" element={<AboutUs />} />
         <Route path="career" element={<Careers />} />
         <Route path="portfolio" element={<Portfolio />} />
+        <Route path="service" element={<Service />} />
       </Routes>
       <Footer />
     </div>

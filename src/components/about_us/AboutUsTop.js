@@ -15,7 +15,7 @@ function AboutUsTop() {
                 specific needs.
               </h5>
               <p class="font-semibold text-base text-gray-700 dark:text-gray-400">
-                At Muve Mobility, we specialize in crafting tailored software
+                At MUVÉ Mobility, we specialize in crafting tailored software
                 solutions perfectly aligned with your distinct business needs.
                 Empowering you to achieve your goals and stay ahead in a
                 competitive market is our priority.
